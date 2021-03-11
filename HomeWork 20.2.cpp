@@ -4,8 +4,7 @@ const int arrSize = 10;
 
 int* conversely (int* a, int* b){
   
-  int* x = b;
-  std::cout << b << "\n";
+  
   for (int i = 0; i < arrSize; i++){
   b[9 - i] = *(a + i);
   }
